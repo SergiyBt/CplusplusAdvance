@@ -49,7 +49,7 @@ void arr_sort_insert(T* a,int lenth){
 	}
 }
 
-template<class T1,class T2>
+template<class T1,class T2> // LINEAR SEARCH
 auto find(T1 a,T2 elemt,int size) -> decltype(a){
 	for(int i=0; i<size; i++){
 	
