@@ -1,5 +1,5 @@
 #include <iostream>
-#include <conio.h>
+#include <conio.h> // for getch()
 #include <string>
 
 using namespace std;
@@ -31,7 +31,7 @@ public:
 	int Elem(){
 		return nElem;
 	}
-	bool find_slow(long key){
+	bool find_slow(long key){ // LINER SEARCH !!!!!!!!!!!!!!!!!!!!!
 		int j;
 		for(j=0; j<nElem; j++)
 			if(a[j] == key)
@@ -41,7 +41,7 @@ public:
 		else
 			return true;
 	}
-	int find_fast(long key){
+	int find_fast(long key){ // SEARCH BINARY !!!!!!!!!!!!!!!!!!!!!!!!
 		int lowBound = 0;
 		int upperBound = nElem - 1;
 		int crnt;
