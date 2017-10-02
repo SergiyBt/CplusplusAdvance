@@ -8,6 +8,7 @@ int main()
 {	
 	ListVie list;
 
+
 	list.Add(300);
 	list.AddBegin(10);
 	list.AddEnd(345);
