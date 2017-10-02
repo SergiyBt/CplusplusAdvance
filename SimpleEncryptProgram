@@ -3,13 +3,15 @@
 
 using namespace std;
 
-void menu(){
+// SHOW MENU 
+void menu(){ 
 	cout<<"******************* EnCrypt Program ******************* \n\n";
 	cout<<" 1. EnCrypt and save file. (Enter 1 please) \n";
 	cout<<" 2. DeCrypt and save file. (Enter 1 please) \n";
 	cout<<" 3. Exit... \n";
 }
 
+// FUNCTION THAT ENCRYPT INFORMATION AND SAVE IN THE FALE
 void Do1(){
 		
 		string filename,filenamesave;
@@ -60,6 +62,7 @@ void Do1(){
 		}
 }
 
+// FUNCTION THAT DECRYPT INFORMATION AND SAVE IN THE FALE
 void Do2(){
 	
 		string filename,filenamesave;
@@ -106,6 +109,7 @@ void Do2(){
 		}	
 }
 
+// MAIN FUNCTION
 int main()
 {	
 		
